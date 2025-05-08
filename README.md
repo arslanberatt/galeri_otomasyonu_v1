@@ -1,53 +1,59 @@
 # 🚗 Galeri Otomasyon Sistemi
 
-Bu proje, bir araç kiralama ve yönetim sistemini temel alan C# konsol uygulamasıdır. Proje, ekip üyeleri tarafından belirli görevler doğrultusunda geliştirilmiştir.
+Bu proje, **C# konsol uygulaması** olarak geliştirilen bir araç kiralama ve yönetim otomasyon sistemidir. Temel hedefimiz, kullanıcı dostu ve güvenli bir yapıda **araç kiralama, teslim alma ve galeri yönetimi** gibi işlemleri dijital ortama taşımaktır.
 
-## 👨‍👩‍👧‍👦 Ekip ve Görev Durumu
+## 👥 Proje Ekibi ve Rol Dağılımı
 
-### ✅ Tamamlananlar
+### 👩‍💼 Ceren — *Project Manager*
+- Takım içi koordinasyonu sağlar  
+- Geliştirme süreçlerini planlar ve takip eder  
+- Kod kalitesini ve dokümantasyonu denetler  
+- Görevlerin zamanında ve doğru tamamlanmasını sağlar  
+---
 
-#### Aliye
-- [x] Araba kirala  
-- [x] Kiradaki arabaları listele  
-- [x] Kiralama iptali  
+### 👩‍💻 Aliye — *Backend Developer*
+- ✅ Araba kiralama modülü  
+- ✅ Kiradaki arabaların listelenmesi  
+- ✅ Kiralama iptali işlemleri  
 
-#### Berat
-- [x] `X` girildiğinde ana menüye dönüş  
-- [x] 10 yanlış girişte çıkış  
-- [x] Seçim al (switch-case ile)  
+### 👨‍💻 Berat — *Validation & Interaction Developer*
+- ✅ `X` girildiğinde ana menüye dönüş  
+- ✅ 10 hatalı giriş sonrası sistem çıkışı  
+- ✅ Kullanıcı seçim işlemleri (`switch-case` ile)  
+- 🚧 “Bilgileri Göster” özelliği geliştirilecek  
 
-> **Not:** "Bilgileri göster" fonksiyonu henüz tamamlanmamıştır.
+### 👨‍🔧 Görkem — *Data Management Specialist*
+- ⏳ Araba ekleme modülü  
+- ⏳ Araba silme işlemi  
+- ⏳ Tüm arabaların listelenmesi  
+
+### 👩‍🔧 Büşra — *Rental Operations Developer*
+- ⏳ Araba teslim alma  
+- ⏳ Galerideki arabaların listelenmesi  
 
 ---
 
-### 🔄 Devam Edenler
+## 🔧 Proje Özellikleri
 
-#### Görkem
-- [ ] Araba ekle  
-- [ ] Araba sil  
-- [ ] Tüm arabaları listele  
-
-#### Büşra
-- [ ] Araba teslim al  
-- [ ] Galerideki arabaları listele  
+- 🚙 **Araç Kiralama/Teslim Alma**: Kullanıcıdan araç seçimi ve kiralama süreci
+- 📋 **Duruma Göre Listeleme**: Kiradaki veya galerideki araçların ayrıştırılması
+- 📌 **Menü Navigasyonu**: Ana menü üzerinden işlem seçimi ve `X` ile geri dönüş
+- 🛡 **Hata Yönetimi**: Maksimum 10 yanlış giriş sonrası sistem çıkışı
+- 🧠 **Kapsamlı Sınıf Kullanımı**: `Galeri`, `Araba`, `Program` sınıfları arasında açık görev paylaşımı
 
 ---
 
-## 🎯 Proje Özellikleri
+## 🧭 Kullanım Talimatları
 
-- Konsol tabanlı araç yönetimi
-- Kiralama ve teslim süreçleri
-- Galeri & kiralama listeleri
-- Menü kontrol mekanizması
-- Kullanıcı hatalarına karşı güvenlik (X ile çıkış, maksimum hata sayısı kontrolü)
-
-## 🛠 Kurulum
-
-1. Visual Studio veya C# destekleyen IDE ile açın.
-2. `Program.cs` dosyasını çalıştırın.
-3. Ana menü üzerinden işlemleri test edin.
+1. Visual Studio veya herhangi bir C# IDE’si ile projeyi açın.  
+2. `Program.cs` üzerinden uygulamayı başlatın.  
+3. Ana menü üzerinden kullanıcı işlemlerini test edin.  
+4. Her işlem sonrası `X` girerek menüye dönebilirsiniz.
 
 ---
 
-Bu dosya ekip içi takip ve proje planlamasını desteklemek için hazırlanmıştır. Tüm geliştiriciler görevlerine odaklanarak ilerlemeye devam edebilir.
+## ✅ Hedefler
 
+- [ ] "Bilgileri Göster" fonksiyonunun tamamlanması  
+- [ ] Arayüz çıktılarının kullanıcı deneyimi açısından sadeleştirilmesi  
+- [ ] Tüm fonksiyonlar için try-catch yapılarıyla hata kontrolünün artırılması  
