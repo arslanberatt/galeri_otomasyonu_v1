@@ -409,7 +409,7 @@ namespace GaleriUygulamasi
         Araba a = new Araba("34ARB3434", "FIAT", 70, "Sedan");
         OtoGaleri.Arabalar.Add(a);
         a.Durum = "Galeride";
-        Araba b = new Araba("34ARB3535", "KIA", 60, "SUV");
+        Araba b = new Araba("35ARB3535", "KIA", 60, "SUV");
         OtoGaleri.Arabalar.Add(b);
         a.Durum = "Galeride";
         Araba c = new Araba("34US2342", "OPEL", 50, "Hatchback");
