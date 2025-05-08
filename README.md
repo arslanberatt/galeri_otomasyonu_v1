@@ -4,30 +4,30 @@ Bu proje, **C# konsol uygulaması** olarak geliştirilen bir araç kiralama ve y
 
 ## 👥 Proje Ekibi ve Rol Dağılımı
 
-### 👩‍💼 Ceren — *Project Manager*
+### 👩‍💼 Ceren 
 - Takım içi koordinasyonu sağlar  
 - Geliştirme süreçlerini planlar ve takip eder  
 - Kod kalitesini ve dokümantasyonu denetler  
 - Görevlerin zamanında ve doğru tamamlanmasını sağlar  
 ---
 
-### 👩‍💻 Aliye — *Backend Developer*
+### 👩‍💻 Aliye 
 - ✅ Araba kiralama modülü  
 - ✅ Kiradaki arabaların listelenmesi  
 - ✅ Kiralama iptali işlemleri  
 
-### 👨‍💻 Berat — *Validation & Interaction Developer*
+### 👨‍💻 Berat 
 - ✅ `X` girildiğinde ana menüye dönüş  
 - ✅ 10 hatalı giriş sonrası sistem çıkışı  
 - ✅ Kullanıcı seçim işlemleri (`switch-case` ile)  
 - 🚧 “Bilgileri Göster” özelliği geliştirilecek  
 
-### 👨‍🔧 Görkem — *Data Management Specialist*
+### 👨‍🔧 Görkem 
 - ⏳ Araba ekleme modülü  
 - ⏳ Araba silme işlemi  
 - ⏳ Tüm arabaların listelenmesi  
 
-### 👩‍🔧 Büşra — *Rental Operations Developer*
+### 👩‍🔧 Büşra 
 - ⏳ Araba teslim alma  
 - ⏳ Galerideki arabaların listelenmesi  
 
