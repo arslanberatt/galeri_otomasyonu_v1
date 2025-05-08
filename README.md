@@ -1,0 +1,1 @@
+# galeri_otomasyonu_ekip
